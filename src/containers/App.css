@@ -1,0 +1,10 @@
+@font-face {
+  font-family: RoboFont;
+  src: url("./SK_BRIAN.ttf");
+}
+
+h1 {
+  font-family: RoboFont;
+  font-weight: 500;
+  color: #0ccac4;
+}
