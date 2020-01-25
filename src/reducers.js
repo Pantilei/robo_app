@@ -16,7 +16,7 @@ export const searchFieldReducer = (state = initialValuesSearch, action) => {
   }
 };
 
-const initialValuesRobots = { robots: [], error: "", isPending: true };
+const initialValuesRobots = { robots: [], error: "", isPending: false };
 
 export const fetchRobotsReducer = (state = initialValuesRobots, action) => {
   switch (action.type) {
